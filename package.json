@@ -1,10 +1,10 @@
 {
   "name": "sprity-krpano-xml",
   "version": "1.0.2",
-  "description": "css style processor for sprity",
+  "description": "krpano-xml style processor for sprity",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JailBreakC/sprity-krpano-xml.git.git"
+    "url": "https://github.com/JailBreakC/sprity-krpano-xml.git"
   },
   "homepage": "https://github.com/JailBreakC/sprity-krpano-xml.git",
   "bugs": {
@@ -13,7 +13,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/JailBreakC/sprity-krpano-xml.git/blob/master/LICENSE-MIT"
+      "url": "https://github.com/JailBreakC/sprity-krpano-xml/blob/master/LICENSE-MIT"
     }
   ],
   "author": {
