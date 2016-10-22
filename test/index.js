@@ -77,7 +77,6 @@ describe('sprity-xml', function () {
           lang: 'xml',
           mode: 'beautify'
         })[0];
-        console.log(style);
         fs.writeFileSync('test/expected/dist.xml', style, {mode: 438});
         style.should.equal(fs.readFileSync('test/expected/style.xml').toString());
         done();
