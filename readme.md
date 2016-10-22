@@ -1,6 +1,6 @@
 # sprity-krpano-xml
 
-<!-- [![NPM version](https://badge.fury.io/js/sprity-krpano-xml.svg)](http://badge.fury.io/js/sprity-krpano-xml) [![Build Status](https://travis-ci.org/sprity/sprity-krpano-xml.svg?branch=master)](https://travis-ci.org/sprity/sprity-css) [![Dependencies](https://david-dm.org/sprity/sprity-css.svg)](https://david-dm.org/sprity/sprity-css) -->
+[![NPM version](https://badge.fury.io/js/sprity-krpano-xml.svg)](http://badge.fury.io/js/sprity-krpano-xml) [![Build Status](https://travis-ci.org/JailBreakC/sprity-krpano-xml.svg?branch=master)](https://travis-ci.org/JailBreakC/sprity-krpano-xml) [![Dependencies](https://david-dm.org/JailBreakC/sprity-krpano-xml.svg)](https://david-dm.org/JailBreakC/sprity-krpano-xml)
 
 > A krpano-xml style processor for [sprity](https://npmjs.org/package/sprity)
 
