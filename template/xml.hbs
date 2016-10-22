@@ -1,0 +1,5 @@
+{{#each layouts}}
+  {{#each layout.items}}
+    <style name="{{../classname}}-{{meta.name}}" url="{{escimage ../sprites.0.url}}" crop="{{x}}|{{y}}|{{width}}|{{height}}" />
+  {{/each}}
+{{/each}}
