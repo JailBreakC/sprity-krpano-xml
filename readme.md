@@ -27,7 +27,7 @@ npm install sprity sprity-krpano-xml -g
 On commandline:
 
 ```sh
-sprity out/ src/*.png -s style.xml -p xml
+sprity out/ src/*.png -s style.xml -p krpano-xml
 ```
 
 In JavaScript:
@@ -37,7 +37,7 @@ var sprite = require('sprity');
 sprite.create({
   ...
   style: 'style.xml',
-  processor: 'xml'
+  processor: 'krpano-xml'
   cssPath: './images/dist/',
   ...
 }, function () {
@@ -48,23 +48,23 @@ sprite.create({
 #### [krpano-xml style](http://krpano.com/docu/xml/#style) usage example
 
 ```xml
-<include url="sprite.xml" /> // the generated xml file (sprite.xml)
+<!-- the generated xml file (sprite.xml) -->
+<include url="sprite.xml" /> 
 
-// camera icon (camera.png in src directory)
-
+<!-- camera icon (camera.png in src directory) -->
 <layer 
 	name="the-camera-layer"
 	style="icon-camera"
 	/>
 
-// cart icon (cart.png in src directory)
+<!-- cart icon (cart.png in src directory) -->
 <layer 
 	name="the-cart-layer"
 	style="icon-cart"
 	/>
 
-//load style in action
-<action>
+<!-- load style in action -->
+<action name="set-layer-style">
 	layer[the-camera-layer].loadstyle(icon-cart);
 </action>
 
