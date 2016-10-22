@@ -38,6 +38,7 @@ sprite.create({
   ...
   style: 'style.xml',
   processor: 'xml'
+  cssPath: './images/dist/',
   ...
 }, function () {
   console.log('done');
