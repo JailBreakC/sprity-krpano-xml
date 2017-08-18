@@ -98,7 +98,11 @@ JavaScript:
 	sprity out/ src/*.png -s style.xml -p krpano-xml
 
 
-#### [krpano-xml style](http://krpano.com/docu/xml/#style) 示例
+执行过之后，会生成一个合成好的雪碧图，和一个 style.xml 里面是 krpano-xml格式的 style 代码。
+
+引入 style.xml 配合 style name 就可以吧雪碧图轻松的应用到 layer 上面。
+
+例：
 
 
 	<!-- the generated xml file (sprite.xml) -->
